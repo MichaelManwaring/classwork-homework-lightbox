@@ -44,6 +44,9 @@ function secretword (word3) {
 }
 
 
+
+
+
 $(document).ready(function(){
 
 
@@ -76,7 +79,27 @@ $(document).ready(function(){
 		$("#secret").text("Your guess contains "+letters+" letters that are also in the secret word!")
 	})
 
+// -------Lightbox stuff
 
+	$("#lightclick").click(function(){
+		$(".lightbox").show()
+	});
+	$(".lightbox").click(function(){
+		$(".lightbox").hide()
+	});
+
+// ----------lightbox URL stuff
+	$("#urlclick").click(function(){
+		$(".lightbox2").show()
+		var url = $("#lighturl").val()
+		if ( url[0,7]!="http://") {
+			url = "http://" +url
+		};
+		$("#lightbox-inner2").html("<iframe src=" + url + " ></iframe>")
+	});
+	$(".lightbox2").click(function(){
+		$(".lightbox2").hide()
+	});
 });
 
 
