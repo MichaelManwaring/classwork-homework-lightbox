@@ -182,13 +182,13 @@ $(document).ready(function(){
 
 // --------------------------------------------------- jQuery
 
-Create a basic HTML page with no styling that has at least 10 separate elements on it
+// Create a basic HTML page with no styling that has at least 10 separate elements on it
 
-Use jQuery to create an animated “show”! Try changing an element’s CSS, hiding, showing, fading, and sliding, and making the page run amok
+// Use jQuery to create an animated “show”! Try changing an element’s CSS, hiding, showing, fading, and sliding, and making the page run amok
 
-Once the “show” works, rig it up to only fire when the user clicks anywhere on the page
+// Once the “show” works, rig it up to only fire when the user clicks anywhere on the page
 
-If you finish this exercise, implement jQuery into some of the websites you built last week and try playing around with some other functions: http://api.jquery.com/ (Links to an external site.)
+// If you finish this exercise, implement jQuery into some of the websites you built last week and try playing around with some other functions: http://api.jquery.com/ (Links to an external site.)
 
 // ---------------------------------------------------Extra Credit
 
